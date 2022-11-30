@@ -28,7 +28,7 @@ const navIcons = [
   <BadgeIcon />,
 ];
 const links = [
-  "#home",
+  "#/",
   "#skills",
   "#experiences",
   "#educations",
@@ -67,7 +67,7 @@ function Navigation(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" }} id="home">
+    <Box sx={{ display: "flex" }} id="/">
       <AppBar component="nav" sx={{ backgroundColor: "#8353EB" }}>
         <Toolbar>
           <IconButton
