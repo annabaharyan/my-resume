@@ -5,6 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 export default function About() {
   return (
     <>
+    
       <h2>ABOUT ME</h2>
       <p>
         I’m a purposeful and hard-working person who is ready for new

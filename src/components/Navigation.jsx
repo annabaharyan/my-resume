@@ -27,7 +27,13 @@ const navIcons = [
   <SchoolIcon />,
   <BadgeIcon />,
 ];
-const links = ["#home", "#skills", "#experiences", "#educations", "#portfolios"];
+const links = [
+  "#home",
+  "#skills",
+  "#experiences",
+  "#educations",
+  "#portfolios",
+];
 function Navigation(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -61,7 +67,7 @@ function Navigation(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex" }} id="home">
       <AppBar component="nav" sx={{ backgroundColor: "#8353EB" }}>
         <Toolbar>
           <IconButton
