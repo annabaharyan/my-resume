@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+.imagePart {
+  border: 1px solid grey;
+  width: 100%;
+}
+.profilePic {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: -1px 2px 6px 0px #d6baf5;
+}
+.contentWrapper {
+  border: 2px solid #8353eb;
+}
+h2,
+h3 {
+  color: #8353eb;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h4 {
+  text-transform: uppercase;
+  color: #78669f;
+}
+
+.icon {
+  color: #8353eb;
+}
+
+.slide > span {
+  color: #8353eb;
+}
+.mySkills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 25px;
+}
+.contact {
+  text-decoration: none;
+  color: black;
+}
+.max,
+.myPersent {
+  height: 8px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.max {
+  width: 100%;
+  background-color: #d6baf5;
+}
+.myPersent {
+  background-color: #8353eb;
+}
