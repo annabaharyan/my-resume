@@ -5,7 +5,7 @@ import MainContent from "./MainContent";
 export default function Home() {
   return (
     <>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" id='home'>
         <MainContent />
       </Container>
     </>

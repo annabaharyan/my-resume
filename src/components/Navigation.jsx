@@ -27,7 +27,7 @@ const navIcons = [
   <SchoolIcon />,
   <BadgeIcon />,
 ];
-const links = ["/", "#skills", "#experiences", "#educations", "#portfolios"];
+const links = ["#home", "#skills", "#experiences", "#educations", "#portfolios"];
 function Navigation(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
