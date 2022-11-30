@@ -1,17 +1,11 @@
-import Config from "./components/Config";
-import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import ErrorPage from "./components/ErrorPage";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Config />}>
-          <Route index element={<Home />} />
-        </Route>
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
+      <Navigation />
+      <Home />
     </>
   );
 }
